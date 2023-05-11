@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/rafael/projects/distributed_app/env"
+VIRTUAL_ENV="/home/rtravassos/projetos/pessoais/processamento-escalavel/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -2,7 +2,7 @@ file_path = "files/test.txt"
 splited_path = "splited"
 import redis
 import time
-r = redis.Redis(host='localhost', port=6379, db=0)
+r = redis.Redis(host='172.17.0.2', port=6379, db=0)
 
 def split_file():
     lines_per_file = 300

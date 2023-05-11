@@ -1,6 +1,6 @@
 FROM python:3.8-slim-buster
 
 WORKDIR /app
+RUN pip3 install redis
 COPY a03_worker.py .
-ENTRYPOINT [ "python", "a03_worker.py" ]
-CMD ["--filename", "x.txt"]
+CMD [ "python", "-u", "a03_worker.py" ]
